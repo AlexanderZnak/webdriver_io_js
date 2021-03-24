@@ -1,0 +1,25 @@
+{
+  "name": "webdriver_io",
+  "version": "1.0.0",
+  "description": "WebdriverIO tutorial",
+  "main": "index.js",
+  "dependencies": {
+    "@wdio/cli": "^7.2.0",
+    "chai": "^4.3.4",
+    "chai-webdriverio": "^1.0.0",
+    "local-runner": "^0.1.1-alpha"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.2.0",
+    "@wdio/mocha-framework": "^7.2.0",
+    "@wdio/spec-reporter": "^7.2.0",
+    "@wdio/sync": "^7.2.0",
+    "chromedriver": "^89.0.0",
+    "wdio-chromedriver-service": "^7.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aliaksandr Znak",
+  "license": "ISC"
+}
